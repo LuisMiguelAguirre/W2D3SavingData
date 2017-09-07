@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">W2D3SavingData</string>
+    <string name="create">Create</string>
+    <string name="type_name">Type name</string>
+    <string name="type_phone">Type phone</string>
+    <string name="read">Read</string>
+    <string name="update">Update</string>
+    <string name="drop">Drop</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.admin.w2d3savingdata.MainActivity">
+
+
+    <EditText
+        android:id="@+id/name_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/type_name"/>
+
+    <EditText
+        android:id="@+id/phone_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/type_phone"
+        android:inputType="phone"
+        />
+
+    <Button
+        android:id="@+id/save_button_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="createDataInfo"
+        android:text="@string/create"
+        />
+
+    <Button
+        android:id="@+id/read_button_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="readDataInfo"
+        android:text="@string/read"
+        />
+
+    <Button
+        android:id="@+id/update_button_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="updateDataInfo"
+        android:text="@string/update"
+        />
+
+    <Button
+        android:id="@+id/delete_button_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="dropDataInfo"
+        android:text="@string/drop"
+        />
+
+</LinearLayout>
